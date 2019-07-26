@@ -1,4 +1,5 @@
-Example WEBRTC server application. Simulate second peer, save video into the file, sends to S3
+Example WEBRTC server application.
+Simulate one peer, save incoming flow into temp video file, sends it to S3
 
 # TODO:
 1. ? format video
