@@ -1,5 +1,10 @@
+# Description
 Example WEBRTC server application.
-Simulate one peer, save incoming flow into temp video file, sends it to S3
+Simulate one peer, save incoming flow into temp video file, sends it to S3.
+
+This application counl be useful:
++ when you want to save vidoe stream, but don't have a possibility to fetch video data on client to push it to S3 directly. Saving Safari video stream from a camera is a good example.
++ when you need a proxy server. If you want to preprocess video (or video frames) before the sending it further or run some external services on incoming data.
 
 # TODO:
 1. ? format video
